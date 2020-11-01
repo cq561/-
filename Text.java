@@ -11,22 +11,16 @@ public class Text {
 		Student a = new Student();
 		Teacher b = new Teacher();
 		Course c= new Course();
-		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//ÉèÖÃÈÕÆÚ¸ñÊ½
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//è®¾ç½®æ—¥æœŸæ ¼å¼
 		String mName = a.getName();
 		int mId = a.getId();
-		String mSex = a.getSex();
-		a.setId(123);
-		a.setName("ÀîËÄ");
-		a.setSex("ÄĞ");
+		String mSex = a.getSex();		
 		mName = a.getName();
 		mId = a.getId();
 		mSex = a.getSex();
 		int teacherid=b.getId();
 		String teachername = b.getName();
-		String teachercourse =b.getInstruction();
-		b.setId(123);
-		b.setName("ÍõÒ»");
-		b.setInstruction("javaÊÚ¿ÎÀÏÊ¦");
+		String teachercourse =b.getInstruction();		
 		teachername = b.getName();
 		teacherid=b.getId();
 		teachercourse=b.getInstruction();
@@ -35,28 +29,34 @@ public class Text {
 		String courseplace =c.getPalce();
 		String courseteacher=c.getTeacher();
 		String mCourse = a.getCourse();
-		c.setId(123);
-		c.setName("ÀëÉ¢ÊıÑ§");
-		c.setPalce("½ÌÑ§3-206ºÅÂ¥");
-		c.setTeacher("ÕÅÈı");
 		courseid =c.getId();
 		coursename =c.getName();
 		courseplace =c.getPalce();
 		courseteacher=c.getTeacher();
-		System.out.println("Ñ§ÉúÑ¡¿ÎÏµÍ³");
-		System.out.println("Ñ§ºÅ is : " + mId);
-		System.out.println("ĞÕÃû  : " + mName);
-		System.out.println("ĞÔ±ğ  :" + mSex);
+		a.setId(123);
+		a.setName("æå››");
+		a.setSex("ç”·");
+		b.setId(123);
+		b.setName("ç‹ä¸€");
+		b.setInstruction("javaæˆè¯¾è€å¸ˆ");
+		c.setId(123);
+		c.setName("ç¦»æ•£æ•°å­¦");
+		c.setPalce("æ•™å­¦3-206å·æ¥¼");
+		c.setTeacher("å¼ ä¸‰");		
+		System.out.println("å­¦ç”Ÿé€‰è¯¾ç³»ç»Ÿ");
+		System.out.println("å­¦å· is : " + mId);
+		System.out.println("å§“å  : " + mName);
+		System.out.println("æ€§åˆ«  :" + mSex);
 		a.setCourse("java");		
-		System.out.println("¿Î³Ì  :" + mCourse);
-		System.out.println("ÀÏÊ¦  is :"+teacherid);
-		System.out.println("ÀÏÊ¦Ãû×Ö  £º"+teachername);
-		System.out.println("ÀÏÊ¦¿Î³Ì:"+teachercourse);
-		System.out.println("¿Î³Ì id :"+courseid);
-		System.out.println("¿Î³Ì :"+coursename);
-		System.out.println("ÉÏ¿ÎµØµã :"+courseplace);
-		System.out.println("Ê±¼ä :"+df.format(new Date()));
-		System.out.println("½²¿ÎÀÏÊ¦Ãû×Ö :"+courseteacher);
+		System.out.println("è¯¾ç¨‹  :" + mCourse);
+		System.out.println("è€å¸ˆ  is :"+teacherid);
+		System.out.println("è€å¸ˆåå­—  ï¼š"+teachername);
+		System.out.println("è€å¸ˆè¯¾ç¨‹:"+teachercourse);
+		System.out.println("è¯¾ç¨‹ id :"+courseid);
+		System.out.println("è¯¾ç¨‹ :"+coursename);
+		System.out.println("ä¸Šè¯¾åœ°ç‚¹ :"+courseplace);
+		System.out.println("æ—¶é—´ :"+df.format(new Date()));
+		System.out.println("è®²è¯¾è€å¸ˆåå­— :"+courseteacher);
 
 	
        
