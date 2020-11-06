@@ -30,6 +30,6 @@
 		String courseteacher=c.getTeacher();  
 		String mCourse = a.getCourse();  
 ## 五 实验结果
-
+![image](https://github.com/cq561/-/blob/main/1.png)
 ## 六, 编程感想
 此次实验比较难 自己没有单独完成的能力，借鉴了同学的部分代码和网上的知识，但还是没有达到自己想要的地步，好多功能还是不能实现。对于super的继承有了更深的认识，也希望在下一步的实验中能够运用到这些知识。
